@@ -10,7 +10,7 @@ After cloned the repo, create a new directory named `data` by
 mkdir data
 ```
 
-Then, go to this [kaggle dataset](www.kaggle.com/johnathanzhuang/the-beacon-chain-dynamics-at-merge-data) to download data files into the `data` directory.
+Then, go to this [kaggle dataset](https://www.kaggle.com/johnathanzhuang/the-beacon-chain-dynamics-at-merge-data) to download data files into the `data` directory.
 
 After that, install the dependencies (make sure you have the Python environment)
 
