@@ -2,6 +2,11 @@
 
 The code repo for the Ethereum Merge Data Challenge
 
+Figure 1 demostrates how our code collect and visualize data.
+
+![](imgs/data-processing.png)
+Figure 1
+
 ## How to run code
 
 After cloned the repo, create a new directory named `data` by
