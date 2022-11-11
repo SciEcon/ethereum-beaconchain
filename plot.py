@@ -1,14 +1,13 @@
 # %%
 import datetime
-import json
 import random
-from unittest import makeSuite
 
 import numpy as np
 import pandas as pd
 import plotapi
 import plotly
 import plotly.graph_objects as go
+import plotly.express as px
 import pyecharts.options as opts
 from plotapi import SplitChord
 from plotly.subplots import make_subplots
@@ -72,25 +71,6 @@ com_df = com_df.set_index('slot')
 com_df = com_df.drop('index', axis=1)
 # %%
 # make nodes
-# nodes = []
-
-# proposers = list(set(block_mini_df['proposer_index']))
-# for proposer in tqdm(proposers):
-#     nodes.append(dict(
-#         name=proposer,
-#         group='left'
-#     ))
-
-# validators = []
-# for idx, item in com_df.iterrows():
-#     validators.extend(item['validators'])
-# validators = list(set(validators))
-# for validator in tqdm(validators):
-#     nodes.append(dict(
-#         name=validator,
-#         group='right'
-#     ))
-
 slot_proposer_df = block_mini_df[['block_slot', 'proposer_index']]
 slot_proposer_df.columns = ['slot', 'proposer_index']
 slot_proposer_df['slot'] = slot_proposer_df['slot'].astype(int)
@@ -161,6 +141,21 @@ fig.add_trace(go.Line(
     name='slashed validators'
 ), secondary_y=True)
 
+fig.update_xaxes(
+    rangeslider_visible=True,
+    rangeselector=dict(
+        buttons=list([
+            dict(count=1, label='1m', step='month', stepmode='backward'),
+            dict(count=6, label='6m', step='month', stepmode='backward'),
+            dict(count=1, label='YTD', step='year', stepmode='todate'),
+            dict(count=1, label='1y', step='year', stepmode='backward'),
+            dict(step='all')
+        ])
+    )
+)
+
+fig.show()
+
 fig.write_html('figures/slashing_stats.html')
 # %%
 df_blocktime = pd.read_csv('data/blocktime.csv', parse_dates=['Date(UTC)'])
@@ -172,6 +167,21 @@ fig.add_trace(go.Scatter(
     x=df_blocktime['Date(UTC)'],
     y=df_blocktime['Value']
 ))
+
+fig.update_xaxes(
+    rangeslider_visible=True,
+    rangeselector=dict(
+        buttons=list([
+            dict(count=1, label='1m', step='month', stepmode='backward'),
+            dict(count=6, label='6m', step='month', stepmode='backward'),
+            dict(count=1, label='YTD', step='year', stepmode='todate'),
+            dict(count=1, label='1y', step='year', stepmode='backward'),
+            dict(step='all')
+        ])
+    )
+)
+
+fig.show()
 
 fig.write_html('figures/blocktime.html')
 # %%
