@@ -23,7 +23,7 @@ This file records validator information.
 
 **Example Data Entry**:
 
-```json
+```
 {
        'index': '110280',
        'balance': '32000000000',
@@ -58,7 +58,7 @@ This file records epoch committees information.
 
 **Example Data Entry**
 
-```json
+```
 {
   'slot': '162367',
   'index': '25',
