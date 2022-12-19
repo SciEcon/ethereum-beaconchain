@@ -31,11 +31,10 @@ python xxx.py
 
 ## Table of Data Files
 
-| Description                              | File Name       |
-|------------------------------------------|-----------------|
-| Validator data in the Beacon Chain       | validators.json |
-| Recorded the status of validators by day | status.csv      |
-| The daily blockrate                      | blocktime.csv   |
-| Auxiliary or temp files                  | *.pkl           |
-
-
+| Description                              | File Name          |
+| ---------------------------------------- | ------------------ |
+| Validator data in the Beacon Chain       | validators.json    |
+| Recorded the status of validators by day | status.csv         |
+| The daily blockrate                      | blocktime.csv      |
+| Auxiliary or temp files                  | \*.pkl             |
+| Data Descriptor                          | data_descriptor.md |
