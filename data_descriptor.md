@@ -43,8 +43,8 @@ This file records validator information.
 
 **Data Entry Used**
 
-| name                         | type   | description                                     |
-| ---------------------------- | ------ | ----------------------------------------------- |
+| name                         | type   | description                                     | frequency |
+| ---------------------------- | ------ | ----------------------------------------------- | --------- |
 | index                        | number | identifier to the validator                     |
 | status                       | enum   | current status of the validator                 |
 | slashed                      | bool   | whether the validator is slashed                |
@@ -160,4 +160,3 @@ voluntary_exits: record (repeated)
 | proposer_index     | number    | identifier of proposer of the block |
 | proposer_slashings | array     | proposer been slashed in the block  |
 | attester_slashings | array     | attester been slashed in the block  |
-

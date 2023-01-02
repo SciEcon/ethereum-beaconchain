@@ -9,32 +9,16 @@ Figure 1
 
 ## How to run code
 
-After cloned the repo, create a new directory named `data` by
+The code is written in Python 3.9.12. We use pipenv to manage the environment.
+
+First, set up the environment by 
 
 ```shell
-mkdir data
+pipenv install
 ```
 
-Then, go to this [kaggle dataset](https://www.kaggle.com/johnathanzhuang/the-beacon-chain-dynamics-at-merge-data) to download data files into the `data` directory.
-
-After that, install the dependencies (make sure you have the Python environment)
+Then, activate the environment by
 
 ```shell
-pip install -r requirements.txt
+pipenv shell
 ```
-
-Then you should be able to directly run code by
-
-```shell
-python xxx.py
-```
-
-## Table of Data Files
-
-| Description                              | File Name          |
-| ---------------------------------------- | ------------------ |
-| Validator data in the Beacon Chain       | validators.json    |
-| Recorded the status of validators by day | status.csv         |
-| The daily blockrate                      | blocktime.csv      |
-| Auxiliary or temp files                  | \*.pkl             |
-| Data Descriptor                          | data_descriptor.md |
