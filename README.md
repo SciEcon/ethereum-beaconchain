@@ -22,3 +22,9 @@ Then, activate the environment by
 ```shell
 pipenv shell
 ```
+
+## Data Descriptor
+
+The data is stored in the `data` folder. The explaination of data files can be found at [data_descriptor.md](data_descriptor.md).
+
+
