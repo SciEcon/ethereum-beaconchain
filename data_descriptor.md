@@ -7,21 +7,21 @@ _Figure 1: Data Processing Flow_
 
 Figure 1 demostrates how data is being fetched and processed and finally visualized in this project.
 
-## Data Files
+## Data Sources
 
-The data is fetched from the following sources:
+The data is fetched from the following three sources:
 
 - ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/>
 - web3py beacon API: <https://web3py.readthedocs.io/en/v5/>
 - Etherscan Online API: <https://etherscan.io/>
 
-`validators.json`
+## Data Files
 
-This file records validator information.
+### 1. `validators.json`: this file records validator information.
 
-**Source**: web3py API
+1.1. **Source**: web3py beacon API: <https://web3py.readthedocs.io/en/v5/>
 
-**Example Data Entry**:
+1.2. **Example Data Entry**:
 
 ```
 {
@@ -41,10 +41,10 @@ This file records validator information.
 },
 ```
 
-**Data Entry Used**
+1.3. **Data Dictionary for Variables Queried**
 
-| name                         | type   | description                                     | frequency |
-| ---------------------------- | ------ | ----------------------------------------------- | --------- |
+| name                         | type   | description                                     | 
+| ---------------------------- | ------ | ----------------------------------------------- | 
 | index                        | number | identifier to the validator                     |
 | status                       | enum   | current status of the validator                 |
 | slashed                      | bool   | whether the validator is slashed                |
@@ -52,11 +52,10 @@ This file records validator information.
 | exit_epoch                   | number | epoch when validator exit                       |
 | withdrawable_epoch           | number | epoch when validator is withdrawable            |
 
-`committees.pkl`
+### 2. `committees.pkl`: this file records epoch committees information.
 
-This file records epoch committees information.
-
-**Example Data Entry**
+2.1. **Source**:  Etherscan Online API: <https://etherscan.io/>
+2.2. **Example Data Entry**
 
 ```
 {
@@ -66,7 +65,7 @@ This file records epoch committees information.
 },
 ```
 
-**Used Data Entry**
+2.3. **Data Dictionary for Variables Queried**
 
 | name       | type             | description                               |
 | ---------- | ---------------- | ----------------------------------------- |
@@ -74,13 +73,11 @@ This file records epoch committees information.
 | index      | number           | identifier of the committee               |
 | validators | array of numbers | identifiers that belongs to the committee |
 
-`beacon_blocks.json`
+### 3. `beacon_blocks.json`: this file records the block information.
 
-This file records the block information.
+3.1. **Source:** ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/>
 
-**Source:** ethereum2etl cli
-
-**Example Data Entry**
+3.2. **Example Data Entry**
 
 ```
 block_slot: integer
@@ -150,7 +147,7 @@ voluntary_exits: record (repeated)
 |- signature: string
 ```
 
-**Used Data Entry**
+3.3. **Data Dictionary for Variables Queried**
 
 | name               | type      | description                         |
 | ------------------ | --------- | ----------------------------------- |
