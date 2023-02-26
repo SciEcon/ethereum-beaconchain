@@ -15,6 +15,8 @@ The data is fetched from the following three sources:
 
 ### 1. `validators.json`: this file records validator information.
 
+TheCode for data query: [https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
+
 1.1. **Source**: web3py beacon API: <https://web3py.readthedocs.io/en/v5/>
 
 1.2. **Example Data Entry**:
@@ -50,7 +52,10 @@ The data is fetched from the following three sources:
 
 ### 2. `committees.pkl`: this file records epoch committees information.
 
+The Code for data query: {https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
+
 2.1. **Source**:  web3py beacon API: https://web3py.readthedocs.io/en/v5/
+
 2.2. **Example Data Entry**
 
 ```
