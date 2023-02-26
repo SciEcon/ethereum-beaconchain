@@ -15,7 +15,9 @@ The data is fetched from the following three sources:
 
 ### 1. `validators.json`: this file records validator information.
 
-The Code for data query: [https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
+The Code for data query: 
+
+[https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
 
 1.1. **Source**: web3py beacon API: <https://web3py.readthedocs.io/en/v5/>
 
@@ -52,7 +54,9 @@ The Code for data query: [https://github.com/sunshineluyao/merge-data-challenge-
 
 ### 2. `committees.pkl`: this file records epoch committees information.
 
-The Code for data query: [https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
+The Code for data query: 
+
+[https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
 
 2.1. **Source**:  web3py beacon API: https://web3py.readthedocs.io/en/v5/
 
@@ -75,7 +79,9 @@ The Code for data query: [https://github.com/sunshineluyao/merge-data-challenge-
 | validators | array of numbers | identifiers that belongs to the committee |
 
 ### 3. `beacon_blocks.json`: this file records the block information.
-The code for data query: [https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/EthereumETL2_Beacon_Block.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/EthereumETL2_Beacon_Block.ipynb)
+The code for data query: 
+
+[https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/EthereumETL2_Beacon_Block.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/EthereumETL2_Beacon_Block.ipynb)
 
 3.1. **Source:** ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/>
 
