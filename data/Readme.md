@@ -2,10 +2,6 @@
 
 This is a data descriptor file for the project. The file gives brief overview of the data files and how to use them.
 
-![](imgs/data-processing.png)
-_Figure 1: Data Processing Flow_
-
-Figure 1 demostrates how data is being fetched and processed and finally visualized in this project.
 
 ## Data Sources
 
