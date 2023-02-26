@@ -50,7 +50,7 @@ The data is fetched from the following three sources:
 
 ### 2. `committees.pkl`: this file records epoch committees information.
 
-2.1. **Source**:  Etherscan Online API: <https://etherscan.io/>
+2.1. **Source**:  web3py beacon API: https://web3py.readthedocs.io/en/v5/
 2.2. **Example Data Entry**
 
 ```
