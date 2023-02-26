@@ -6,7 +6,7 @@ Figure 1 demostrates how our code collect and visualize data.
 ![](imgs/data-processing.png)
 Figure 1
 
-## How to run code
+## How to run code?
 
 The code is written in Python 3.9.12. We use pipenv to manage the environment.
 
