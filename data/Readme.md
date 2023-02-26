@@ -160,7 +160,7 @@ voluntary_exits: record (repeated)
 
 | name               | type      | example                      |
 | ------------------ | --------- | --------------------------- |
-| data               | datatime[64]| 7/30/2015                 |
+| data               | datetime[64]| 7/30/2015                 |
 | value              | number [second] | 4.46                  |
 | UnixTimeStamp      | timestamp         |1438214400           |
 
