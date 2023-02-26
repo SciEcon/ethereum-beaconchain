@@ -1,6 +1,5 @@
 # The Beacon Chain Dynamics at Merge: Evaluating Consensus Decentralization and Security Via Validator Life Cyle Visualzations
 
-The code repo for the Ethereum Merge Data Challenge
 
 Figure 1 demostrates how our code collect and visualize data.
 
