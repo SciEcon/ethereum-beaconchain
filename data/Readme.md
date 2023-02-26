@@ -52,7 +52,7 @@ The Code for data query: [https://github.com/sunshineluyao/merge-data-challenge-
 
 ### 2. `committees.pkl`: this file records epoch committees information.
 
-The Code for data query: (https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)(https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
+The Code for data query: [https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
 
 2.1. **Source**:  web3py beacon API: https://web3py.readthedocs.io/en/v5/
 
@@ -161,7 +161,9 @@ voluntary_exits: record (repeated)
 | attester_slashings | array     | attester been slashed in the block  |
 
 4. `blocktime.csv`: this file records the blocktime information. 
+
 4.1. **Source**: Etherscan Online API: <https://etherscan.io/> (direct download from the URL: https://etherscan.io/chart/blocktime)
+
 4.2. **Data Dictionary for Variables Quried**
 
 | name               | type      | example                      |
