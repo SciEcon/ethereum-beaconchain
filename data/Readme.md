@@ -75,6 +75,7 @@ The Code for data query: (https://github.com/sunshineluyao/merge-data-challenge-
 | validators | array of numbers | identifiers that belongs to the committee |
 
 ### 3. `beacon_blocks.json`: this file records the block information.
+The code for data query: [https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/EthereumETL2_Beacon_Block.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/EthereumETL2_Beacon_Block.ipynb)
 
 3.1. **Source:** ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/>
 
