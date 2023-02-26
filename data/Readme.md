@@ -19,6 +19,10 @@ The Code for data query:
 
 [https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
 
+The location of the queried data:
+
+[https://www.kaggle.com/datasets/sunshineluyaozhang/ethereum-beaconchain](https://www.kaggle.com/datasets/sunshineluyaozhang/ethereum-beaconchain)
+
 1.1. **Source**: web3py beacon API: <https://web3py.readthedocs.io/en/v5/>
 
 1.2. **Example Data Entry**:
@@ -58,6 +62,10 @@ The Code for data query:
 
 [https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
 
+The location for data queried:
+
+the current data folder
+
 2.1. **Source**:  web3py beacon API: https://web3py.readthedocs.io/en/v5/
 
 2.2. **Example Data Entry**
@@ -79,9 +87,14 @@ The Code for data query:
 | validators | array of numbers | identifiers that belongs to the committee |
 
 ### 3. `beacon_blocks.json`: this file records the block information.
+
 The code for data query: 
 
 [https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/EthereumETL2_Beacon_Block.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/EthereumETL2_Beacon_Block.ipynb)
+
+The location of the queried data:
+
+[https://www.kaggle.com/datasets/sunshineluyaozhang/ethereum-beaconchain](https://www.kaggle.com/datasets/sunshineluyaozhang/ethereum-beaconchain)
 
 3.1. **Source:** ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/>
 
