@@ -153,3 +153,13 @@ voluntary_exits: record (repeated)
 | proposer_index     | number    | identifier of proposer of the block |
 | proposer_slashings | array     | proposer been slashed in the block  |
 | attester_slashings | array     | attester been slashed in the block  |
+
+4. `blocktime.csv`: this file records the blocktime information. 
+4.1. **Source**: Etherscan Online API: <https://etherscan.io/> (direct download from the URL: https://etherscan.io/chart/blocktime)
+4.2. **Data Dictionary for Variables Quried**
+| name               | type      | example                      |
+| ------------------ | --------- | ----------------------------------- |
+| data         | datatime[64]  | 7/30/2015                    |
+| value       | number [second]    | 4.46                  |
+| UnixTimeStamp   | timestamp | 1438214400        |
+
