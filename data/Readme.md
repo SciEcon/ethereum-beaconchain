@@ -7,7 +7,7 @@ This is a data descriptor file for the project. The file gives brief overview of
 
 The data is fetched from the following three sources:
 
-- ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/>
+- ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/> , <https://github.com/blockchain-etl/ethereum2-etl/>
 - web3py beacon API: <https://web3py.readthedocs.io/en/v5/>
 - Etherscan Online API: <https://etherscan.io/>
 
@@ -96,7 +96,7 @@ The location of the queried data:
 
 [https://www.kaggle.com/datasets/sunshineluyaozhang/ethereum-beaconchain](https://www.kaggle.com/datasets/sunshineluyaozhang/ethereum-beaconchain)
 
-3.1. **Source:** ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/>
+3.1. **Source:** ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/>, <https://github.com/blockchain-etl/ethereum2-etl/>
 
 3.2. **Example Data Entry**
 
