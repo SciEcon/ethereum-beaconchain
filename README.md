@@ -30,4 +30,10 @@ All the queried and processed data are stored in the [data](https://github.com/s
 
 ![](./figure/validator_status_river/theme_river_exited.png)
 
+### Product 1: Validator Status Area Plot
+
+![](./figure/validator_status_areaplot/validator_status.png)
+
+
+
 
