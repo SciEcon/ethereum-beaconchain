@@ -166,9 +166,17 @@ voluntary_exits: record (repeated)
 | attester_slashings | array     | attester been slashed in the block  |
 
 4. 'beacon_validators.json': this file records the validator information
+
+
 4.1. **Source:** ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/>, <https://github.com/blockchain-etl/ethereum2-etl/>
-4.2. similar to validator.json
-4.3. similar to validator.json 
+
+4.2.  **Example Data Entry**
+
+similar to validator.json
+
+4.3. **Data Dictionary for Variables Queried**
+
+similar to validator.json 
 
 5. `blocktime.csv`: this file records the blocktime information. 
 
