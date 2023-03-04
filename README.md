@@ -42,4 +42,10 @@ All the queried and processed data are stored in the [data](https://github.com/s
 ![](./figure/Attestation_Count_SplitChord/Chord_after100.png)
 
 
+### Product 4: Slashed Validator Count Timeseries
 
+![](./figure/Slashed_Timeseries/slashing_stats.png)
+
+### Product 5: Slashed Validator Balance Timeseries
+
+![](./figure/Slashed_Balance_Timeseries/slashing_balance.png)
