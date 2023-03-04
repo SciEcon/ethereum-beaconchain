@@ -49,3 +49,8 @@ All the queried and processed data are stored in the [data](https://github.com/s
 ### Product 5: Slashed Validator Balance Timeseries
 
 ![](./figure/Slashed_Balance_Timeseries/slashing_balance.png)
+
+### Product 6: Blocktime Timeseries
+
+![](./figure/Blocktime_Timeseries/blocktime.png)
+
