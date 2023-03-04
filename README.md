@@ -4,7 +4,7 @@
 Figure 1 demostrates how our code collect and visualize data.
 
 ![](imgs/data-processing.png)
-Figure 1
+Figure 1 the Data Science Pipeline
 
 ## How to run code?
 
@@ -24,6 +24,6 @@ pipenv shell
 
 ## Data Descriptor
 
-The data is stored in the `data` folder. The explaination of data files can be found at [data_descriptor.md](data_descriptor.md).
+The data is stored in the [`data`](https://github.com/sunshineluyao/merge-data-challenge-update/tree/master/data) folder. The explaination of data files can be found at [data/Readme.md](data/Readme.md).
 
 

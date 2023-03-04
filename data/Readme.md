@@ -2,22 +2,26 @@
 
 This is a data descriptor file for the project. The file gives brief overview of the data files and how to use them.
 
-![](imgs/data-processing.png)
-_Figure 1: Data Processing Flow_
-
-Figure 1 demostrates how data is being fetched and processed and finally visualized in this project.
 
 ## Data Sources
 
 The data is fetched from the following three sources:
 
-- ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/>
+- ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/> , <https://github.com/blockchain-etl/ethereum2-etl/>
 - web3py beacon API: <https://web3py.readthedocs.io/en/v5/>
 - Etherscan Online API: <https://etherscan.io/>
 
 ## Data Files
 
 ### 1. `validators.json`: this file records validator information.
+
+The Code for data query: 
+
+[https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
+
+The location of the queried data:
+
+[https://www.kaggle.com/datasets/sunshineluyaozhang/ethereum-beaconchain](https://www.kaggle.com/datasets/sunshineluyaozhang/ethereum-beaconchain)
 
 1.1. **Source**: web3py beacon API: <https://web3py.readthedocs.io/en/v5/>
 
@@ -54,7 +58,16 @@ The data is fetched from the following three sources:
 
 ### 2. `committees.pkl`: this file records epoch committees information.
 
-2.1. **Source**:  Etherscan Online API: <https://etherscan.io/>
+The Code for data query: 
+
+[https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
+
+The location for data queried:
+
+the current data folder
+
+2.1. **Source**:  web3py beacon API: https://web3py.readthedocs.io/en/v5/
+
 2.2. **Example Data Entry**
 
 ```
@@ -75,7 +88,15 @@ The data is fetched from the following three sources:
 
 ### 3. `beacon_blocks.json`: this file records the block information.
 
-3.1. **Source:** ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/>
+The code for data query: 
+
+[https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/EthereumETL2_Beacon_Block.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/EthereumETL2_Beacon_Block.ipynb)
+
+The location of the queried data:
+
+[https://www.kaggle.com/datasets/sunshineluyaozhang/ethereum-beaconchain](https://www.kaggle.com/datasets/sunshineluyaozhang/ethereum-beaconchain)
+
+3.1. **Source:** ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/>, <https://github.com/blockchain-etl/ethereum2-etl/>
 
 3.2. **Example Data Entry**
 
@@ -157,3 +178,16 @@ voluntary_exits: record (repeated)
 | proposer_index     | number    | identifier of proposer of the block |
 | proposer_slashings | array     | proposer been slashed in the block  |
 | attester_slashings | array     | attester been slashed in the block  |
+
+4. `blocktime.csv`: this file records the blocktime information. 
+
+4.1. **Source**: Etherscan Online API: <https://etherscan.io/> (direct download from the URL: https://etherscan.io/chart/blocktime)
+
+4.2. **Data Dictionary for Variables Quried**
+
+| name               | type      | example                      |
+| ------------------ | --------- | --------------------------- |
+| data               | datetime[64]| 7/30/2015                 |
+| value              | number [second] | 4.46                  |
+| UnixTimeStamp      | timestamp         |1438214400           |
+
