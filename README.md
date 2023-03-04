@@ -30,10 +30,16 @@ All the queried and processed data are stored in the [data](https://github.com/s
 
 ![](./figure/validator_status_river/theme_river_exited.png)
 
-### Product 1: Validator Status Area Plot
+### Product 2: Validator Status Area Plot
 
 ![](./figure/validator_status_areaplot/validator_status.png)
 
+
+### Product 3: Attestation Count SplitChord Plot Before and After the Merge
+
+![](./figure/Attestation_Count_SplitChord/Chord_before100.png)
+
+![](./figure/Attestation_Count_SplitChord/Chord_after100.png)
 
 
 
