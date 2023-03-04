@@ -1,4 +1,4 @@
-# The Beacon Chain Dynamics at Merge: Evaluating Consensus Decentralization and Security Via Validator Life Cyle Visualzations
+# The Beacon Chain Dynamics at Merge: Validator Life Cycle Visualizations
 
 
 Figure 1 demostrates how our code collect and visualize data.
