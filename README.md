@@ -17,14 +17,17 @@ All the codes are stored in the [code](https://github.com/sunshineluyao/ethereum
 
 
 ## Data
+All the queried and processed data are stored in the [data](https://github.com/sunshineluyao/ethereum-beaconchain/tree/master/data) folder and you can find the data description file in the [Readme](https://github.com/sunshineluyao/ethereum-beaconchain/blob/master/data/Readme.md).
 
 
 ## Spotlight
 
-### 
-
-
+### Product 1: Validator Status Theme River Plot
 
 ![](./figure/validator_status_river/theme_river_activated.png)
+
+![](./figure/validator_status_river/theme_river_eligible.png)
+
+![](./figure/validator_status_river/theme_river_exited.png)
 
 
