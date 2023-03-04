@@ -15,10 +15,6 @@ The data is fetched from the following three sources:
 
 ### 1. `validators.json`: this file records validator information.
 
-The Code for data query: 
-
-[https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
-
 The location of the queried data:
 
 [https://www.kaggle.com/datasets/sunshineluyaozhang/ethereum-beaconchain](https://www.kaggle.com/datasets/sunshineluyaozhang/ethereum-beaconchain)
@@ -58,13 +54,7 @@ The location of the queried data:
 
 ### 2. `committees.pkl`: this file records epoch committees information.
 
-The Code for data query: 
-
-[https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/Web3py_Beacon_API.ipynb)
-
-The location for data queried:
-
-the current data folder
+The location for data queried:  the current data folder
 
 2.1. **Source**:  web3py beacon API: https://web3py.readthedocs.io/en/v5/
 
@@ -87,10 +77,6 @@ the current data folder
 | validators | array of numbers | identifiers that belongs to the committee |
 
 ### 3. `beacon_blocks.json`: this file records the block information.
-
-The code for data query: 
-
-[https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/EthereumETL2_Beacon_Block.ipynb](https://github.com/sunshineluyao/merge-data-challenge-update/blob/master/data/run_on_GoogleColab/EthereumETL2_Beacon_Block.ipynb)
 
 The location of the queried data:
 
@@ -179,11 +165,16 @@ voluntary_exits: record (repeated)
 | proposer_slashings | array     | proposer been slashed in the block  |
 | attester_slashings | array     | attester been slashed in the block  |
 
-4. `blocktime.csv`: this file records the blocktime information. 
+4. 'beacon_validators.json': this file records the validator information
+4.1. **Source:** ethereum2etl cli: <https://ethereum-etl.readthedocs.io/en/latest/>, <https://github.com/blockchain-etl/ethereum2-etl/>
+4.2. similar to validator.json
+4.3. similar to validator.json 
 
-4.1. **Source**: Etherscan Online API: <https://etherscan.io/> (direct download from the URL: https://etherscan.io/chart/blocktime)
+5. `blocktime.csv`: this file records the blocktime information. 
 
-4.2. **Data Dictionary for Variables Quried**
+5.1. **Source**: Etherscan Online API: <https://etherscan.io/> (direct download from the URL: https://etherscan.io/chart/blocktime)
+
+5.2. **Data Dictionary for Variables Quried**
 
 | name               | type      | example                      |
 | ------------------ | --------- | --------------------------- |
