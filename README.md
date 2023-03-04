@@ -1,9 +1,9 @@
 # The Beacon Chain Dynamics at Merge: Validator Life Cycle Visualizations
 
 
-Figure 1 demostrates how our code collect and visualize data.
+# The Data Science Pipeline
 
-![](imgs/data-processing.png)
+![](Etherem_BeaconChain_Workflow.png)
 Figure 1 the Data Science Pipeline
 
 ## How to run code?
